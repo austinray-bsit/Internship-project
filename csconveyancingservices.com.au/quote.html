@@ -1,0 +1,213 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>CS Conveyancing Services NSW | Online Conveyancing</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="description" content="CS Conveyancing Services offers you advice with Buying and Selling all types of residential and commercial property. From a family home to an investment property. ">
+        <link rel="canonical" href="https://www.csconveyancingservices.com.au/">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!-- start section -->
+        <section class="big-section bg-light-gray wow animate__fadeIn"  id="quoteHtml">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center margin-seven-bottom">
+                        <h6 class="alt-font text-extra-dark-gray font-weight-500">Your CS Conveyancing Instant Online Quote</h6>
+                    </div>
+                </div>
+                <div class="col-lg-12 md-margin-30px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
+                    <!-- start pricing table -->
+                    <div class="pricing-table d-flex flex-column justify-content-center h-100 bg-gradient-shamrock-green-light-orange border-radius-5px padding-60px-lr padding-70px-tb lg-padding-50px-lr xs-padding-50px-tb xs-padding-40px-lr">
+                        <!-- start pricing header -->
+                        <div class="pricing-header text-center">
+                            <div id="qoute_data"></div>
+                        </div>
+                        <!-- end pricing header -->
+                        <!-- start pricing footer -->
+                        <div class="pricing-footer text-center">
+                            <div style="margin: 10px;" class="btn btn-fancy btn-medium btn-white" data-toggle="modal" data-target="#exampleModal" onclick="emailQuote()">Email Quote</div>
+                            <div style="margin: 10px;" class="btn btn-fancy btn-medium btn-white" data-toggle="modal" data-target="#exampleModal" onclick="requestCallBack()">Request A Call Back</div>
+                            <div style="margin: 10px;" class="btn btn-fancy btn-medium btn-white" data-toggle="modal" data-target="#exampleModal" onclick="acceptQuote()">Accept This Quote</div>
+                        </div>
+                        <h5 class="text-white">Inclusions - Purchase</h5>
+                        <p class="text-white">Your quote includes everything required to complete the conveyancing process. See below for a breakdown of our professional fee and included disbursements. Further optional inclusions can also be added as requested by you. </p>
+                        <p class="text-white" id="dynamic-note"></p>
+                        <div style="margin: 0px 0px 20px 0px;" class="accept_quote text-white text-center" id="happy-with-quote">
+                        </div>
+                        <p class="text-white" id="government-thirdparty"></p>
+                        <h5 class="text-white">Professional Fees</h5>
+                        <ul class="text-white" style="margin: 0px 0px 10px 30px;">
+                            <li class="additional_text_li1"></li>
+                            <li class="additional_text_li2"></li>
+                            <li>Assess and process Stamp Duty liability</li>
+                            <li>Liaise with your lender</li>
+                            <li>Prepare settlement calculations</li>
+                            <li class="additional_text_last">
+                            </li>
+                        </ul>
+                        <h5 class="text-white">Disbursements</h5>
+                        <ul class="text-white purchase-list" style="margin: 0px 0px 10px 30px;">
+                            <li>Title Search</li>
+                            <li>Council Rates Search (S603)</li>
+                            <li>Water Rates Search (S66)</li>
+                            <li>Stamp duty process fee</li>
+                            <li>Photocopying</li>
+                            <li>Telephone</li>
+                            <li>Postage</li>
+                        </ul>
+                        <table class="table table-bordered text-white purchase-table" style="margin: 50px 0px;">
+                            <thead>
+                                <tr class="text-large">
+                                    <th scope="col">Exclusion: </th>
+                                    <th scope="col">Fees</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Pexa Transaction fee – this is the electronic settlement fee that is charged to you on settlement. This is a third party compulsory expense.</th>
+                                    <td colspan="2">$116.60</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Your Registration fees to transfer the title (e.g. registration of transfer) – This should be covered by your loan, if you are getting a mortgage. Check with your bank.</th>
+                                    <td colspan="2">$146.40 per dealing</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Australia Post VOI – It is compulsory that we verify your identity.</th>
+                                    <td colspan="2">$49.00</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Infotrack Web VOI – This is a link sent to your phone.</th>
+                                    <td colspan="2">$12.95</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Special Meter Reading (if required this will depend on location of property).</th>
+                                    <td colspan="2">$75 - $180</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-bordered text-white purchase-company-title" style="margin: 50px 0px;">
+                            <thead>
+                                <tr class="text-large">
+                                    <th scope="col">Exclusion: </th>
+                                    <th scope="col">Fees</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Settlement agent fees.</th>
+                                    <td colspan="2">$110.00* fees may vary</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Australia Post VOI – It is compulsory that we verify your identity.</th>
+                                    <td colspan="2">$49.00</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 70%;">Infotrack Web VOI – This is a link sent to your phone.</th>
+                                    <td colspan="2">$12.95</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="text-white">The following government searches are not included in the agreed fixed fee. This is optional and please note that we highly recommend these searches be conducted to investigate the possibility of a government entity seeking an interest in the property, which the Vendor has not he Contract. By accepting our schedule of fees, you understand the risks to conducting these searches.</p>
+                        <table class="table table-bordered text-white" style="margin: 50px 0px;">
+                            <thead>
+                                <tr class="text-large">
+                                    <th scope="col" colspan="2">Estimate Only – Prices may vary depending on the location of your property (ESTIMATES ONLY)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Ausgrid.</th>
+                                    <td colspan="2">$55.32</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Jemma Gas Networks.</th>
+                                    <td colspan="2">$66.48</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Rail Corporation.</th>
+                                    <td colspan="2">$59.80</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Road Maritime Services.</th>
+                                    <td colspan="2">$59.80</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Transgrid.</th>
+                                    <td colspan="2">$91.75</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Endeavour Energy.</th>
+                                    <td colspan="2">$91.75</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Telco.</th>
+                                    <td colspan="2">$129.77</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Your Details</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form method="post" action="contact-form.php">
+                                            <div class="form-group" id="qoute-details"></div>
+                                            <div class="form-group">
+                                                <label for="user-name" class="col-form-label">Name:</label>
+                                                <input type="text" name="user-name" class="form-control input" id="user-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user-email" class="col-form-label">Email:</label>
+                                                <input type="email" name="user-email" class="form-control input" id="user-email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user-phone" class="col-form-label">Phone:</label>
+                                                <input type="text" name="user-phone" class="form-control input" id="user-phone" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user-address" class="col-form-label">Address:</label>
+                                                <textarea class="form-control input" name="user-address" id="user-address" required></textarea>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end pricing footer -->
+                    </div>
+                    <!-- end pricing table -->
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+        <!-- start scroll to top -->
+        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a>
+        <!-- end scroll to top -->
+        <!-- javascript -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/quote.js"></script>
+    </body>
+</html>
